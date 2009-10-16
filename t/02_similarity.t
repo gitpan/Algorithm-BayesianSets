@@ -3,10 +3,8 @@ use warnings;
 use Algorithm::BayesianSets;
 use Test::More tests => 374;
 
-use constant {
-    NUM_DOCUMENT => 10,
-    NUM_KEY      => 30,
-};
+use constant NUM_DOCUMENT => 10;
+use constant NUM_KEY      => 30;
 
 my $threshold = 0.1;
 my $bs = Algorithm::BayesianSets->new($threshold);
