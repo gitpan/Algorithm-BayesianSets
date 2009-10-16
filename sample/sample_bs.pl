@@ -8,9 +8,7 @@ use warnings;
 use FindBin::libs;
 use Algorithm::BayesianSets;
 
-use constant {
-    MAX_OUTPUT => 20,
-};
+use constant MAX_OUTPUT => 20;
 
 my $bs = Algorithm::BayesianSets->new(0); # threshold = 0
 

@@ -3,12 +3,10 @@ package Algorithm::BayesianSets;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
-use constant {
-    DEFAULT_THRESHOLD => 0,
-    DEFAULT_C         => 2,
-};
+use constant DEFAULT_THRESHOLD => 0;
+use constant DEFAULT_C         => 2;
 
 sub new {
     my ($class, $threshold) = @_;
